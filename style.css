@@ -1,0 +1,71 @@
+body{
+   background-color:#ece1e1;
+}
+h1{
+    text-align: center;
+    color: crimson;
+}   
+table{
+    margin: 0 auto;
+    text-align: left;
+    font-size: medium;
+    width: 600px;
+
+}
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+  }
+div {
+    
+  
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+
+ table, th, td {
+    border:  1px solid black;
+    border-collapse: collapse;
+  }
+  tr:hover {background-color: #ddd;}
+  tr:nth-child(even){background-color: #f2f2f2;}
+  ul {
+    list-style-type: square;
+    margin: 120px 550px 50px ;
+    padding: 0;
+    width: 200px;
+    background-color: #ece1e1;
+    ;
+    font-family:Arial, Helvetica, sans-serif ;
+  }
+  
+  li a {
+    margin:20px auto;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  #heading{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  footer{
+      margin-top: 160px;
+      text-align: center;
+  }
